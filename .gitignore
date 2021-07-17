@@ -4,10 +4,10 @@ _site
 _drafts
 .ruby-version
 
-# other
-CHANGELOG.md
-NOTICE.md
-LICENSE.md
+# # other
+# CHANGELOG.md
+# NOTICE.md
+# LICENSE.md
 
 # Numerous always-ignore extensions
 *.diff
