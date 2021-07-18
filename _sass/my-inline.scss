@@ -2,3 +2,68 @@
 // .sidebar a {
 //   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 // }
+
+.nav-btn-bar{
+    height: 3.5rem;
+}
+
+.nav-btn{
+    height: 3.5rem;
+}
+
+.sidebar {
+    text-align: right;
+}
+
+.sidebar-bg {
+    background: rgb(242,159,5);
+    background: linear-gradient(270deg, rgb(242, 180, 5) 26%, rgba(242,135,5,1) 54%, rgba(242,92,5,1) 89%, rgba(242,68,5,1) 100%);
+}
+
+#_drawer{
+    --hy-drawer-peek-width: calc(50% - 35rem);
+}
+
+@media screen and (min-width: 1664px) {
+    hy-drawer {
+      width: calc(50% - 35rem);
+      --hy-drawer-peek-width: calc(50% - 35rem);
+    }
+  }
+
+@media (min-width: 1664px) {
+    body::before {
+      width: calc(50% - 35rem);
+    }
+}
+
+@media screen and (min-width: 1664px) {
+  body.no-break-layout:not(.no-toc) #markdown-toc {
+    width: calc(50% - 35rem);
+  }
+}
+
+
+@media screen and (min-width: 86em) {
+    .content {
+      padding-top: 9rem;
+      margin-left: 28rem;
+      margin-right: 4rem;
+      max-width: 55rem;
+    }
+}
+
+.content .avatar{
+    background-color:white;
+}
+
+.highlighter-rouge:not(.language-plaintext){
+  font-size:1.07em;
+}
+
+.figure-base, div.highlight>.pre-header, .pre-base, article .katex-display, article mjx-container[jax][display="true"], pre, table:not(.rouge-table) {
+  margin-left: 0rem;
+  margin-right: -1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
