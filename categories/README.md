@@ -7,18 +7,24 @@ sitemap: false
 permalink: /categories/
 ---
 
-While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
-{:.note}
-
-
-## Examples
-* [Tutorial]{:.heading.flip-title} --- dfdf
-* [Docs]{:.heading.flip-title} --- dfdfdd
-* [Cat1]{:.heading.flip-title} --- dfdf
-* [Cat2]{:.heading.flip-title} --- dfdf
+## Computer Vision
+* [Algorithms]{:.heading.flip-title} --- Computer Vision algorithms and techniques
+* [Applications]{:.heading.flip-title} --- Applications of Computer Vision algorithms
+* [Papers]{:.heading.flip-title} --- Computer Vision paper reviews
 {:.related-posts.faded}
 
-[Tutorial]: ../tutorial/
+[Algorithms]: ../CV-Alg/
+[Applications]: ../CV-App/
+[Papers]: ../CV-Paper/
+
+## Blog
+* [Writings]{:.heading.flip-title} --- How to write contents
+{:.related-posts.faded}
+
+[Writings]: ../Blog/
+
+## Examples
+* [Docs]{:.heading.flip-title} --- dfdfdd
+{:.related-posts.faded}
+
 [Docs]: ../posts/docs/
-[Cat1]: ../cat1/
-[Cat2]: ../cat2-2/

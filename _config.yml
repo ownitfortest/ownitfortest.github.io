@@ -263,7 +263,7 @@ hydejack:
   hide_dates:          false
 
   # TODO
-  hide_last_modified:  false
+  hide_last_modified:  true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -412,13 +412,13 @@ jekyll_compose:
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
-    projects:
-      layout: project
-      description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-      links:
-        - title: Project Link
-          url: https://example.com
+    # projects:
+    #   layout: project
+    #   description: > 
+    #     A short ~160 character description of your post for search engines,
+    #     social media previews, etc.
+    #   image:
+    #     path: /assets/img/sidebar-bg.jpg
+    #   links:
+    #     - title: Project Link
+    #       url: https://example.com
